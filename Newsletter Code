@@ -1,0 +1,63 @@
+/* Changing font sizes on mobile */
+@media only screen and (max-width: 640px)
+{ { /* Might need to delete one of these for this to work */
+.newsletter-block .newsletter-form-header-description p {
+   font-size: 11px !important;
+   line-height: 14px;
+  }
+}
+
+/*** Newsletter Customization ***/
+/*** Header Text ***/
+.newsletter-block .newsletter-form-header-description p {
+   font-size: 11px;
+   font-family: 'Suisse-Bold';
+   font-weight: 700;
+   text-transform: Uppercase;
+   color: #000;   
+ }
+/*** Email Fill In ***/
+.newsletter-block .newsletter-form-field-wrapper {
+  display: inline-block;
+  width: 300px;
+  min-width: 300px;
+  padding: 2px 0px;
+}
+/*** Email Fill In Border ***/
+.sqs-alternate-block-style-container .newsletter-block .newsletter-form-wrapper .newsletter-form-field-element {
+  background: none !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-bottom: solid 1px #b8b8b8 !important; 
+} 
+/*** Email Fill In ***/
+.newsletter-block .newsletter-form-field-element {
+  width: 100%;
+  padding: .6em 0em;
+  background: transparent;
+  font-family: 'Suisse-Regular';
+  font-size: 15px;
+}
+/*** Sumbit Button ***/
+.sqs-alternate-block-style-container .newsletter-block .newsletter-form-wrapper .newsletter-form-button {
+  color: #fff;
+  background-color: #ff3600;
+  border: 1px solid #ff3600 !important;
+}
+/*** Sumbit Button ***/
+body:not(.button-style-default) .sqs-editable-button, body:not(.button-style-default) .sqs-editable-button-layout {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  padding: .85em 2.1em;
+}
+/*** Sumbit Button Text ***/
+.newsletter-block .newsletter-form-button {
+  position: relative;
+  font-family: 'Suisse-Bold';
+  font-weight: 700;
+  text-transform: Uppercase;
+  font-size: 12px;
+  letter-spacing: .1em;
+}
